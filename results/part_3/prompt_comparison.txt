@@ -68,8 +68,7 @@ Gout is a chronic condition, but with proper treatment, medication, and lifestyl
 
 ## Scores
 
-```
-
+```csv
 question,zero_shot,one_shot,few_shot
 what_foods_should_be_avoided_by_patients_with_gout,1.00,1.00,1.00
 what_medications_are_commonly_prescribed_for_gout,0.83,0.83,0.83
@@ -80,3 +79,7 @@ can_gout_be_cured_permanently,0.60,0.40,1.00
 average,0.72,0.78,0.90
 best_method,few_shot
 ```
+
+zero-shot_accuracy: 0.72
+one-shot_accuracy: 0.78
+few-shot_accuracy: 0.90
