@@ -71,5 +71,9 @@ def run_chat(model="gpt-3.5-turbo"):
     except KeyboardInterrupt:
         print("\n[Interrupted with Ctrl+C — exiting]")
 
-if __name__ == "__main__":
+
+def main():
     run_chat()
+
+if __name__ == "__main__":
+    main()
