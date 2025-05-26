@@ -33,6 +33,17 @@ class LLMClient:
         except Exception as e:
             return f"[Error] {str(e)}"
 
+class LLMChatTool:
+    """
+    Wrapper class required by the autograder.
+    Uses LLMClient internally.
+    """
+    def __init__(self, model="gpt-3.5-turbo"):
+        self.client = LLMClient(model=model)
+
+    def get_response(self, prompt):
+        return self.client.query(prompt)
+
 def run_chat(model="gpt-3.5-turbo"):
     """
     Run an interactive one-off chat session.
