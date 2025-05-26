@@ -1,0 +1,82 @@
+# Prompt Engineering Results
+
+## Question: What foods should be avoided by patients with gout?
+
+### Zero-shot response:
+Patients with gout should avoid foods high in purines such as red meat, organ meats, and certain seafood. Alcohol, especially beer, should also be limited.
+
+### One-shot response:
+Avoid purine-rich foods like red meat, seafood, and organ meats. It's also important to limit alcohol intake, particularly beer.
+
+### Few-shot response:
+Foods to avoid include those high in purines such as red meat, organ meats, and seafood. Beer and other alcoholic beverages should also be limited.
+
+--------------------------------------------------
+
+## Question: What medications are commonly prescribed for gout?
+
+### Zero-shot response:
+Common medications for gout include NSAIDs, colchicine, and corticosteroids to manage pain and inflammation. Long-term treatments may include allopurinol or febuxostat.
+
+### One-shot response:
+Doctors often prescribe NSAIDs, colchicine, corticosteroids for acute attacks, and allopurinol or febuxostat for long-term uric acid control.
+
+### Few-shot response:
+Medications for gout include NSAIDs, colchicine, corticosteroids for acute treatment, and urate-lowering therapies such as allopurinol and febuxostat for chronic management.
+
+--------------------------------------------------
+
+## Question: How can gout flares be prevented?
+
+### Zero-shot response:
+Gout flares can be prevented by maintaining a healthy diet, avoiding trigger foods, staying hydrated, and taking prescribed medications regularly.
+
+### One-shot response:
+Prevention includes lifestyle changes like diet management, weight control, avoiding alcohol, and using medications such as allopurinol when prescribed.
+
+### Few-shot response:
+To prevent flares, maintain a low-purine diet, stay hydrated, limit alcohol, exercise regularly, and adhere to medications like allopurinol.
+
+--------------------------------------------------
+
+## Question: Is gout related to diet?
+
+### Zero-shot response:
+Yes, gout is often related to diet. High-purine foods like red meat and seafood can increase uric acid levels, leading to gout.
+
+### One-shot response:
+Yes. Diet plays a significant role in gout, especially foods rich in purines such as organ meats, alcohol, and seafood.
+
+### Few-shot response:
+Yes, diet is a contributing factor. Consuming high-purine foods like red meat, seafood, and alcohol can trigger gout attacks.
+
+--------------------------------------------------
+
+## Question: Can gout be cured permanently?
+
+### Zero-shot response:
+Gout cannot be completely cured but it can be effectively managed with lifestyle changes and medication.
+
+### One-shot response:
+While there is no permanent cure for gout, it can be well-controlled with long-term treatment and lifestyle modifications.
+
+### Few-shot response:
+Gout is a chronic condition, but with proper treatment, medication, and lifestyle management, symptoms can be controlled long-term.
+
+--------------------------------------------------
+
+
+## Scores
+
+```
+
+question,zero_shot,one_shot,few_shot
+what_foods_should_be_avoided_by_patients_with_gout,1.00,1.00,1.00
+what_medications_are_commonly_prescribed_for_gout,0.83,0.83,0.83
+how_can_gout_flares_be_prevented,0.33,0.67,0.67
+is_gout_related_to_diet,0.83,1.00,1.00
+can_gout_be_cured_permanently,0.60,0.40,1.00
+
+average,0.72,0.78,0.90
+best_method,few_shot
+```
